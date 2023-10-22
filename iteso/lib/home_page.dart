@@ -7,7 +7,7 @@ class HomePage extends StatefulWidget {
   State<HomePage> createState() => _HomePageState();
 }
 
-class _HomePageState extends State<home> {
+class _HomePageState extends State<HomePage> {
   int likes = 37;
   bool liked = false;
   bool mail = false;
