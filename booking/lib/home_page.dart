@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:booking/info.dart';
-import 'package:booking/act.dart';
+import 'package:booking/activity_item.dart';
 
-class home extends StatelessWidget {
-  home({Key? key}) : super(key: key);
+class HomePage extends StatelessWidget {
+  HomePage({Key? key}) : super(key: key);
 
   final List<Map<String, String>> _listElements = [
     {
@@ -90,7 +90,7 @@ class home extends StatelessWidget {
                         itemBuilder: (BuildContext context, int index) {
                           return GestureDetector(
                             onTap: () => {},
-                            child: act(
+                            child: ActivityItem(
                               content: _listElements[index],
                             ),
                           );
