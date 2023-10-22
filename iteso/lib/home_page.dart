@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class home extends StatefulWidget {
-  home({super.key,});
+class HomePage extends StatefulWidget {
+  HomePage({super.key,});
 
   @override
-  State<home> createState() => _homeState();
+  State<HomePage> createState() => _HomePageState();
 }
 
-class _homeState extends State<home> {
+class _HomePageState extends State<home> {
   int likes = 37;
   bool liked = false;
   bool mail = false;
