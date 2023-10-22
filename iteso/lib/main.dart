@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:iteso/home.dart';
+import 'package:iteso/home_page.dart';
 
 void main() => runApp(MyApp());
 
