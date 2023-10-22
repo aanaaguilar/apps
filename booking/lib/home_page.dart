@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:booking/info.dart';
+import 'package:booking/info_page.dart';
 import 'package:booking/activity_item.dart';
 
 class HomePage extends StatelessWidget {
@@ -66,7 +66,7 @@ class HomePage extends StatelessWidget {
                 right: 0,
                 child: ListView(
                   children: [
-                    info(),
+                    InfoPage(),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: [
