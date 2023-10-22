@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 
-class act extends StatelessWidget {
+class ActivityItem extends StatelessWidget {
   final Map<String, String> content;
-  act({Key? key, required this.content}) : super(key: key);
+  ActivityItem({Key? key, required this.content}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
